@@ -11,3 +11,10 @@ body {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+.container {
+  max-width: 1140px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 50px auto;
+}
