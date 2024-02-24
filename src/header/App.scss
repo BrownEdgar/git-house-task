@@ -1,0 +1,96 @@
+ .container{
+    display: flex;
+     .main{
+         background-color: #181B2C;
+        width: 60%;
+         color: white;
+         .nav_mainDiv{         
+             .nav_firstSection{
+                 padding-left: 150px;
+                 padding-right: 150px;
+                color: white;
+                padding-top: 50px;
+                font-size: 20px;
+                letter-spacing: 2px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                display: flex;
+                margin-bottom: 200px;
+                justify-content: space-between;
+                h1{
+                 width: 70%;
+                 vertical-align: middle;
+                 padding-right: 50px;
+                }
+                ul{
+                 list-style: none;
+                 vertical-align: middle;
+                 width: 30%;
+                 font-size: 16px;
+                }   
+                }
+                span{
+                    padding: 150px 150px 0 150px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    margin-bottom: 0;
+                }
+                h2{
+                    padding: 0 150px 50px 150px;
+                    font-size: 82px;
+                }
+                p{
+                    padding: 0 150px 50px 150px;
+                    font-size: 20px;
+
+                }
+                form{
+                    padding: 0 150px 50px 150px;
+                    .inputs{
+                        background-color: #fff;
+                        width: 55%;
+                        border-radius: 8px;
+                        input[type=text]{
+                            width: 70%;
+                            height: 55px;
+                            padding-left: 25px;
+                            border: none;
+                        }
+                        input[type=submit]{
+                            padding: 12px 25px ;
+                            background-color: rgb(233, 109, 8);
+                            color: #fff;
+                            border-radius: 8px;
+                            border-color: transparent;
+                            cursor: pointer;
+                            font-size: 16px;
+                        }
+                } 
+            }
+        }
+     }
+ }
+       
+.nav_secondSection{
+    background-image: url('/images/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    .nav_secondSecyionDiv{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        padding: 50px;
+        gap: 0 30px;
+        letter-spacing: 2px;
+        h4{
+            border: 1px solid #1d1d1d;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        h3{
+            vertical-align: middle;
+        }
+    }
+   
+}
