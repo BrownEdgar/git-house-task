@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
-import './App.scss'
+import  { useState } from 'react'
+import './Header.scss'
 
 export default function App() {
     const [navItems, setnavItems] = useState(['Home','Service','About','Blog','Contact'])
   return (
-    <div className='container'>
-        <div className="main">
+      <div className="main">
      <div className='nav_mainDiv'>
+     <div className='container'>
      <nav className='nav_firstSection'>
+    
         <h1>LOGO</h1>
          {
             navItems.map(item=>{
@@ -17,6 +18,8 @@ export default function App() {
                     </ul>
                     )})
             }
+            
+      
         </nav>
         <span>EASY WAY TO FIND YOUR PROPERTY</span>
         <h2>Find the perfect place to stay with your family </h2>
@@ -29,10 +32,9 @@ export default function App() {
             </div>
         </form>
         </div>
-       
         </div>
          <div className='nav_secondSection'>
-            <div  className='nav_secondSecyionDiv'>
+            <div  className='nav_secondDiv'>
             <h3>Sign In</h3>
             <h4>Register</h4>
             </div>
