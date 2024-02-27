@@ -5,42 +5,42 @@ export default function HouseSlice() {
     const [houseSlice, setHouseSlice] = useState([
         {
           id:1,  
-          image:"./images/house1.jpg",
+          image:"./images/houseSlice/house1.jpg",
           name: "Meadow viwe",
           description: " 3 Bads |  3 Baths  |  2,532 Sq.Ft",
           price: "$ 570.00"
         },
         {
             id:2,
-            image:"./images/house2.jpg",
+            image:"./images/houseSlice/house2.jpg",
             name: "Orchard House",
             description: " 3 Bads |  3 Baths  |  2,532 Sq.Ft",
             price: "$ 570.00"
         },
         {
             id:3,  
-            image:"./images/house3.jpg",
+            image:"./images/houseSlice/house3.jpg",
             name: "School House",
             description: " 3 Bads |  3 Baths  |  2,532 Sq.Ft",
             price: "$ 570.00"
         },
         {
            id:4,
-           image:"./images/house4.jpg",
+           image:"./images/houseSlice/house4.jpg",
            name: "Meadow viwe",
            description: " 3 Bads |  3 Baths  |  2,532 Sq.Ft",
            price: "$ 570.00"
         },
         {
           id:5,
-          image:"./images/house5.jpg",
+          image:"./images/houseSlice/house5.jpg",
           name: "Orchard House",
           description: " 3 Bads |  3 Baths  |  2,532 Sq.Ft",
           price: "$ 570.00"
         },
         {
          id:6,
-         image:"./images/house6.jpg",
+         image:"./images/houseSlice/house6.jpg",
          name: "School House",
          description: " 3 Bads |  3 Baths  |  2,532 Sq.Ft",
          price: "$ 570.00"
