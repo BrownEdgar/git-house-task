@@ -9,6 +9,7 @@ function MainSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
   };
 
   const imgSrc = "/reviews/rate-star.svg";
