@@ -1,0 +1,47 @@
+.EmailSection {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	width: 500px;
+	height: 500px;
+	&__title {
+		font-size: 36px;
+		font-weight: 700;
+		color: #1B213A;
+		text-align: center;
+		margin-bottom: 12px;
+	}
+	&__description {
+		font-size: 16px;
+		font-weight: 400;
+		text-align: center;
+		color: #666666;
+		margin-bottom: 50px;
+	}
+	&__form {
+		width: 80%;
+		margin: auto;
+		&-inputs {
+			width: 100%;
+			background-color: #F2F2F2;
+			padding: 8px 8px;
+			display: flex;
+			border-radius: 8px;
+			input[type=text] {
+				flex-basis: 70%;
+				background-color: transparent;
+				outline: none;
+				border: none;
+			}
+			input[type=submit] {
+				padding: 7px 11px;
+				background-color: #FB5E16;
+				border-radius: 6px;
+				color: #ffff;
+				font-weight: 600;
+				font-size: 16px;
+			}
+
+		}
+	}
+}
