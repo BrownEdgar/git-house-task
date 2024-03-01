@@ -1,0 +1,73 @@
+.Footer {
+  background-color: #f2f2f2;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  &__logo {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    flex-grow: 1;
+  }
+  &__social {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  &__p {
+    flex-grow: 1;
+  }
+  &__first {
+    display: flex;
+  }
+  &__about {
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 70px 0;
+    font-size: 18px;
+    font-weight: 400;
+    flex-basis: 28%;
+  }
+  &__company {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0;
+    gap: 10px;
+    flex-basis: 18%;
+    margin-left: 100px;
+  }
+  &__navigate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px 0;
+    flex-basis: 18%;
+  }
+  &__products {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px 0;
+    flex-basis: 18%;
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px 0;
+    flex-basis: 18%;
+  }
+  &__second {
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    > p {
+      text-align: left;
+      flex-grow: 3;
+    }
+  }
+}
